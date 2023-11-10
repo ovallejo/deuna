@@ -1,0 +1,1 @@
+{ "query":"mutation login ($payload: String!, $additionalData: String!) {login (payload: $payload, additionalData: $additionalData) { accessToken, idToken, refreshToken, expiresIn } }","variables":{ "payload":"${payloadLogin}", "additionalData":"${additionalDataLogin}" } }
